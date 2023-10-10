@@ -1,0 +1,20 @@
+package:
+  name: shellinford
+  version: 1.0.0
+
+source:
+  git_url: git@github.com:eac697/shellinford.git
+  sha256: +q5lQalaUaR1KsEbEfD1ODHbWfGZYIBVNIrL+Kxb+WQ
+
+requirements:
+  build:
+    - make  # [unix]
+    - gcc   # [unix]
+
+  run:
+    - gcc   # [unix]
+
+about:
+  home: https://github.com/echizentm/shellinford
+  description: succinct document retrieval library
+  license: unknown

@@ -1,0 +1,31 @@
+package:
+  name: cpp_pe_extension
+  version: 1.0.0
+
+source:
+  git_url: git@github.com:eac697/cpp-pe-extension.git
+  sha256: +q5lQalaUaR1KsEbEfD1ODHbWfGZYIBVNIrL+Kxb+WQ
+
+requirements:
+  build:
+    - gcc
+    - make
+    - bzip2
+    - zlib
+    - ncurses
+    - htslib
+    - shellinford
+
+  run:
+    - gcc
+    - make
+    - bzip2
+    - zlib
+    - ncurses
+    - htslib
+    - shellinford
+
+about:
+  home: 
+  description: pair-end extension
+  license: unknown
