@@ -1,6 +1,10 @@
 #!/bin/bash
+echo "Configuring Shellinford..."
 
-./configure --prefix=$PREFIX
+echo $CONDA_PREFIX
+./configure --prefix=$CONDA_PREFIX
 
 make
 make install
+
+echo "Done"
