@@ -3,7 +3,8 @@ package:
   version: 1.0.0
 
 source:
-  git_url: git@github.com:eac697/cpp-pe-extension.git
+  git_url: git@github.com:korem-lab/CPP-PE-Extension.git
+  git_rev: deployable
   sha256: +q5lQalaUaR1KsEbEfD1ODHbWfGZYIBVNIrL+Kxb+WQ
 
 requirements:
