@@ -2,8 +2,8 @@
 
 cd src
 
-./configure --prefix=$PREFIX
-export CPPFLAGS="-I${PREFIX}/include"
-export LDFLAGS="-L${PREFIX}/lib" 
+./configure --prefix=$CONDA_PREFIX
+export CPPFLAGS="-I${CONDA_PREFIX}/include"
+export LDFLAGS="-L${CONDA_PREFIX}/lib" 
 make
 make install
