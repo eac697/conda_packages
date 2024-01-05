@@ -12,10 +12,10 @@ requirements:
     - gcc
     - make
     - bzip2
-    - zlib
+    - zlib >=1.2.12,<1.3.0a0
     - ncurses
-    - htslib
-    - shellinford
+    - htslib >=1.18,<1.19.0a0
+    - shellinford=1.0
 
   run:
     - gcc

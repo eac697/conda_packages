@@ -8,11 +8,11 @@ source:
 
 requirements:
   build:
-    - make  # [unix]
-    - gcc   # [unix]
+    - make  
+    - gcc   
 
   run:
-    - gcc   # [unix]
+    - gcc   
 
 about:
   home: https://github.com/echizentm/shellinford
